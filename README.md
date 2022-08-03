@@ -15,4 +15,13 @@ try {
     });
 }
 
+// DEBUG CONSOLE
+
+// [LOG] -- Error on MyClass.myMethod (Line 28), type 'int' is not a subtype of type 'String' of 'other'
+// [LOG] 
+//       -- Please check the errors below:
+// [LOG] 1. package:myapp/app/controllers/my_class.dart 26:8 in MyClass.myMethod
+// [LOG] 2. package:myapp/app/views/app_view.dart 28:30 in TestView.build.<fn>
+// [LOG] 3. package:flutter/src/material/ink_well.dart 1005:21 in _InkResponseState._handleTap
+
 ```
